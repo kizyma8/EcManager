@@ -1,0 +1,90 @@
+html{
+
+    background: linear-gradient(#0E5F9C, #1177c4)#0E5F9C;
+}
+#loginbox{
+    border: 7px outset #7BB5FF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 380px;
+    height: 400px;
+    margin-top: -225px;
+    margin-left: -225px;
+    background-color:#E3EFFF;
+}
+.header-form{
+    color: #0E5F9C;
+    text-align:center;
+    background-color:#7BB5FF;
+    width:380px;
+    height:30px;
+    font-family:"Cooper Black",Serif;
+    font-size: 120%;
+}
+.panel-body{
+    width: 450px;
+    height: 350px;
+}
+
+.form-group {
+    width: 450px;
+    padding: 10px;
+    margin: auto;
+
+}
+#username{
+    border: 5px ridge #DCDCDC;
+    width:350px;
+   height: 50px;
+    padding: 10px;
+    margin: auto;
+}
+#password{
+    height: 50px;
+    border: 5px ridge #DCDCDC;
+    width:350px;
+    padding: 10px;
+    margin: auto;
+}
+.checkbox{
+    font-family:"Cooper Black",Serif;
+    color:#0E5F9C;
+    padding-top: 20px;
+    padding-left:10px;
+    font-size: 110%;
+}
+.form-submit{
+    padding-top: 20px;
+    padding-left: 10px;
+
+}
+#have-account{
+
+    font-family:"Cooper Black",Serif;
+    color: #0E5F9C;
+    font-size:80%;
+    padding-left: 40px;
+    text-decoration: none;
+
+}
+.error{
+    text-align: center;
+    font-family:"Cooper Black",Serif;
+    font-size:80%;
+    color:#0E5F9C;
+
+}
+.submit-button{
+    display: inline-block;
+    color: #ffffff;
+    font-family:"Cooper Black",Serif;
+    outline:none;
+    border: 2px solid #7BB5FF;
+    border-radius: 6px;
+    background: linear-gradient(#1384d8, #7BB5FF) #1384d8;
+    transition: 0.2s;
+    width:80px;
+    height:35px;
+}
+.submit-button:hover { background: linear-gradient(#0E5F9C, #128fed) #0E5F9C; }
